@@ -14,8 +14,29 @@ function Header() {
         />
       </Link>
       <div className="header__search">
-        <input type="text" className="header_searchInput" />
+        <input type="text" className="header__searchInput" />
         <SearchIcon className="header__searchIcon" />
+      </div>
+
+      <div className="header__nav">
+        <Link to="/login" className="header__link">
+          <div className="header__option">
+            <span>Hello Darshana</span>
+            <span>Sign In</span>
+          </div>
+        </Link>
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span>Returns</span>
+            <span>& Orders</span>
+          </div>
+        </Link>
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span>Your</span>
+            <span>Prime</span>
+          </div>
+        </Link>
       </div>
     </nav>
   );
