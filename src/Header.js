@@ -4,7 +4,6 @@ import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import { ShoppingBasket } from "@material-ui/icons";
 
-
 function Header() {
   return (
     <nav className="header">
@@ -41,8 +40,8 @@ function Header() {
         </Link>
         <Link to="/checkout" className="header__link">
           <div className="header__optionBasket">
-              <ShoppingBasket />
-              <span className="header__optionLineTwo header__basketCount">0</span>
+            <ShoppingBasket />
+            <span className="header__optionLineTwo header__basketCount">0</span>
           </div>
         </Link>
       </div>
